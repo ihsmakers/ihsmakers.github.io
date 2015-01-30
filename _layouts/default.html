@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
   {% include head.html %}
-
   <body>
+    {% include nav.html %}
     <div class="container">
       <div class="row clearfix">
         <div class="col-md-12 column">
-    {% include nav.html %}
-    {{content}}
-    {% include footer.html %}
+          {{content}}
+          {% include footer.html %}
+          {% include addons.html %}
         </div>
       </div>
     </div>

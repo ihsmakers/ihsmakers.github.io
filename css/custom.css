@@ -1,44 +1,114 @@
-/*body {
-    padding-top: 70px;
-}*/
-.jumbotron {
-    margin-bottom: 0px;
-    background-image: url(../img/jumbotron.jpg);
-    background-position: 0% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-}
-.bio {
-    font-size: 1.4em;
-    font-weight:500;
-    margin-top: 0.5em;
+li.active {
+    cursor: inherit;
 }
 .pad-top {
     padding-top: 50px;
 }
-.pad-top-sm {
-    padding-top: 15px;
+.pad-top-xl {
+    padding-top: 100px;
+}
+.navbar-brand {
+    font-family: 'aleoregular', sans-serif;
+    font-weight: normal;
+    font-size: 1.75em;
+    /*text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-left: 20px;*/
+}
+#navlist {
+    font-family: 'aleolight', sans-serif;
+    font-weight: normal;
+}
+/*
+.pointer {
+    cursor:default;
+}
+.fw {
+    padding: 0; width:100%;
+}
+.pad-top {
+    padding-top: 50px;
 }
 .pad-top-xl {
     padding-top: 100px;
 }
-.pad-bt-sm {
-    padding-bottom: 15px;
+.jumbotron {
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);        
 }
-.asterisk {
-    color: #df691a;
+.transparent {
+    background: transparent;
 }
-.maxx {
-    max-width: 225px;
+.lighting {
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.2), 
+            rgba(0, 0, 0, 0.2)
+        ),
+        url(../img/lights.jpg)
+    ;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.recent {
-    max-width: 250px;
+.sound {
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.2), 
+            rgba(0, 0, 0, 0.2)
+        ),
+        url(../img/sound.jpg)
+    ;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.media-bio {
-    max-width: 800px;
-    margin: 0 auto;
+.movies {
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/popcorn.jpg)
+    ;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.img-bio {
-    max-width: 250px;
+.video {
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/camera.jpg)
+    ;
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.italic {
+    font-style:italic;
+}
+.pad-right-30 {
+    padding-right: 8.5px;
+}
+.aboutcopy {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.panel {
+    margin-top: 25px;
+    margin-bottom:25px;
+    border-width: 0px;
+}
+.panel-body {
+    padding: 25px;
+    font-size: 1.5em;
+    font-style: italic;
+}
+.panel-footer {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+*/

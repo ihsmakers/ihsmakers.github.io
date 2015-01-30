@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,6 +24,8 @@
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
   -->
+  <link rel="stylesheet" href="/fonts/aleo_regular/stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="/fonts/aleo_light/stylesheet.css" type="text/css" charset="utf-8" />
 
   <!-- Font Awesome -->
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -44,45 +45,39 @@
   <![endif]-->
 
 </head>
-
   <body>
-    <div class="container">
-      <div class="row clearfix">
-        <div class="col-md-12 column">
-    <!--navigation-->
-            <nav class="navbar navbar-default" role="navigation">
+    <!--active page navbar http://stackoverflow.com/a/18748127-->
+<!--navigation-->
+            <nav class="navbar navbar-default navbar-static-top" role="navigation">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                        <b><a class="navbar-brand" href="/">Runner's Life</a></b>
+                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        <b><a class="navbar-brand" href="/">IHS Makers Class</a></b>
                     </div>
-
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="/">Home</a>
-                            </li>
-                            <li>
-                                <a href="/about.html">About Us</a>
-                            </li>
-                            <li>
-                                <a href="http://runnerslifeblog.tumblr.com">Blog</a>
-                            </li>
-                            <li>
-                                <a href="/contact.html">Contact</a>
-                            </li>
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <ul id="navlist" class="nav navbar-nav">
+                            
+                                <li><a href="/">Blog</a></li>
+                            
+                            
+                                <li><a href="/about.html">About</a></li>
+                            
+                            <li><a class="typeform-share link" href="https://karlnippoldt.typeform.com/to/sS2l3F" data-mode="2" target="_blank">Contact</a></li>
                         </ul>
-                        <button type="button" class="navbar-right btn btn-primary navbar-btn text-uppercase" data-toggle="modal" data-target="#signup">Subscribe</button>
+                        <!--<div class="pad-right-30"><a type="button" class="navbar-right typeform-share button btn btn-success navbar-btn text-uppercase" href="https://karlnippoldt.typeform.com/to/wCvDBZ" data-mode="2" target="_blank">Schedule an event</a></div>-->
                         <div class="visible-xs pad-bt-sm"></div>
                     </div>
                 </div>
             </nav>
-    <div class="page">
+    <div class="container">
+      <div class="row clearfix">
+        <div class="col-md-12 column">
+          <div class="page">
   <h1 class="page-title">404: Page not found</h1>
   <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="">Head back home</a> to try finding it again.</p>
 </div>
 
-                <!--Copyright notice-->            
+                      <!--Copyright notice-->            
 			<div class="row clearfix pad-top-xl">
 				<div class="col-md-12 column">
 					<p class="text-center">
@@ -100,6 +95,15 @@
 					</p>
 				</div>
 			</div>
+          <!--Typeform scripts-->
+<!--Schedule an event-->
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<!-- Contact us form -->
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
         </div>
       </div>
     </div>
